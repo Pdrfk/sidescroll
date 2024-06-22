@@ -4340,6 +4340,7 @@ self.C3_JsPropNameTable = [
 	{chãoareia: 0},
 	{árvore: 0},
 	{planta: 0},
+	{Sprite16: 0},
 	{chave: 0}
 ];
 
@@ -4366,7 +4367,8 @@ self.InstanceType = {
 	Sprite7: class extends self.ISpriteInstance {},
 	chãoareia: class extends self.ISpriteInstance {},
 	árvore: class extends self.ISpriteInstance {},
-	planta: class extends self.ISpriteInstance {}
+	planta: class extends self.ISpriteInstance {},
+	Sprite16: class extends self.ISpriteInstance {}
 }
 }
 
